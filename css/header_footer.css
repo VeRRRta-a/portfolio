@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*
+@font-face {
+    font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-style: normal;
+    src: local(Cambria), local(Cochin), local(Times), local('Times New Roman');
+}
+*/
+
+.burgerIcon {
+    width: 80px;
+    display: none;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between; /* Разделяет элементы внутри (img,nav,form) */
+    align-items: center;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* > означет что мы обращаемся к контейнеру лежащему непосредственно в хидере  */
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a {
+    font-size: 0,875em;
+    text-decoration: none;
+    /* этим убрали подчеркивание */
+    color: #353536;
+    margin: 0px 40px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    /* уточнить про активну ссылку, пока работает неккоректно */
+    /* hover при наведении курсора  */
+    color: #7c0576;
+    font-size: 1,25em;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #7c0576;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #7c0576;
+    border-radius: 50px;
+}
+
+header form div input[type='text'] {
+    border: none;
+    margin-right: 5px;
+    padding: 6px;
+}
+
+header form div input[type='submit'] {
+    background: url(/images/Screenshot_1\ копия.png) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+header form div input[type='submit']:hover {
+    cursor: pointer;
+}
+
+/* начался футер */
+
+footer {
+    background-color: #353536;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: #ada8a6;
+    font-size: 1,25em;
+    margin-top: 25px;
+    width: 140px;
+}
+
+footer .left nav {
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+footer .left nav a {
+    display: block;    
+    color: #ada8a6;
+    font-size: 0.876em;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover,
+footer .left nav a.active {
+    color: #ffffff;
+    font-size: 1,25em;
+    font-weight: 600;
+    padding-bottom: 5px;
+
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer .right form input[type='text'] {
+    padding: 8px 0px;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type='submit'] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url('/images/Screenshot_1\ копия\ 2.png') no-repeat;
+    background-size: cover;
+}
+
+footer .right > div {
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.875em;
+    margin-top: 33px;
+    margin-bottom: 15;
+}
+
+footer .right .box {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 15px 5px 0px;
+
+}
+
+footer .right .youtube {
+    background: url(/images/youtube-с-дыркой-logo.png) no-repeat;
+    background-size: cover;
+
+}
+
+footer .right .youtube:hover {
+    background: url(/images/youtube-с-дыркой-logo-тап.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vk {
+    background: url(/images/vk.png) no-repeat;
+    background-size: cover;
+
+}
+
+footer .right .vk:hover {
+    background: url(/images/vk\ жмяк.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .telega {
+    background: url(/images/telegram.png) no-repeat;
+    background-size: cover;
+
+}
+
+footer .right .telega:hover {
+    background: url(/images/telegram\ жмяу.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .copyrights {
+    text-align: center;
+    color: #ada8a6;
+    font-size: 0.750em;
+    margin-top: 60px ;
+}

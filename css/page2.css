@@ -1,0 +1,19 @@
+input[name="signup"], input[type="email"]{
+    height: 50px;
+}
+
+.block2, .block1 {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.block1 {
+    background-color: blue;
+    padding: 30px;
+}
+
+.block2 {
+    background-color: brown;
+}

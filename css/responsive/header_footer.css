@@ -1,0 +1,172 @@
+/* 
+>= 1200
+992 - 1199
+768 - 991
+576 - 768
+414 - 460
+375 - 414
+320 - 375
+px
+*/
+
+@media screen and (max-width: 1199px ) {
+
+    footer .right form div {
+        width: 400px;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width: 991px ) {
+    
+    header form div {
+        width: 200px;
+    }
+
+    header .container .menu a {
+        margin: 0px 20px;
+    }
+
+    header form div input[type='text'] {
+
+        width: 130px;
+    }
+
+    footer figure{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px ) {
+    
+    header > .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+    } 
+
+    header form div {
+        width: 400px;
+        height: 30px;
+    }
+
+    header form div input[type='text'] {
+        height: 20px;
+        width: 450px;
+    }
+
+    header form div {
+        margin-top: 15px;
+    }
+
+    footer .right form div {
+        width: 250px;
+        margin-right: 10px;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+    }
+
+    footer .left {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .right {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 575px ) {
+
+    header .menu {
+        margin: 15px 0px;
+    }
+
+}
+
+@media screen and (max-width: 413px ) {
+
+    header form div {
+        width: 350px;
+        height: 30px;
+    }
+
+    header form div input[type='text'] {
+        height: 20px;
+        width: 350px;
+    }
+
+
+}
+
+@media screen and (max-width: 374px ) {
+
+
+    header .container .menu {
+        display: none;
+    }
+
+    
+    .burgerIcon {
+        width: 80px;
+        display: inline-block;
+    }
+    header .container .menu a {
+        display: block;
+        margin: 15px 10px;
+    }
+    header .container .menu a:hover, header .container .menu a.active {
+        border-bottom: none;
+    }
+
+    header form div {
+        width: 300px;
+        height: 30px;
+    }
+
+    header form div input[type='text'] {
+        height: 20px;
+        width: 300px;
+    }
+
+    footer .left nav {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px ) {
+
+    header form div {
+        width: 250px;
+        height: 30px;
+    }
+
+    header form div input[type='text'] {
+        height: 20px;
+        width: 250px;
+    }
+
+    footer .left {
+        display: block;
+    }
+
+    footer .left figure {
+        text-align: center;
+    }
+
+    footer .left figure figcaption {
+        width: auto;
+    }
+
+    footer .left nav {
+        margin-top: 45px;
+    }
+}

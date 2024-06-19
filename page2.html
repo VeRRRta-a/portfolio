@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="/css/page2.css"></link>
+</head>
+<body>
+    <h1>Hello 2</h1>
+    <a href="portfolio.html"><img src="/images/burg.png" alt="Вернуться на прошлую страницу" width="500px" title="Вернуться на прошлую страницу"></a>
+    <h1>Регистрация</h1>
+
+    <div style="position: relative;">
+        <img src="/images/burg.png" alt="Фон" style="position: absolute;">
+        <p style="position: absolute; z-index: 1;">Текст поверх изображения</p>
+      </div>
+
+    <form name="signup" action="#" method="post">
+        <div>
+            <label>Введите почту:</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label>Введите логин:</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label>Введите пароль:</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Укажите пол:</label>
+            <input type="radio" name="sex" value="0">Мужской
+            <input type="radio" name="sex" value="1">Женский
+        </div>
+        <div>
+            <label>Загрузите фото:</label>
+            <input type="file" name="avatar">
+        </div>
+        <div>
+            <label>Год рождения:</label>
+            <select name="year">
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+            </select>
+        </div>
+        <div>
+            <textarea placeholder="Введите обращение"></textarea>
+        </div>
+        <div>
+            <label>Я ознакомлен(а) с правилами пользования:</label>
+            <input type="checkbox" name="rules1">
+            <label>Я молодец:</label>
+            <input type="checkbox" name="rules2">
+        </div>
+        <input type="submit" name="signup" value="Регистрация">
+    </form>
+    <div class="block1">
+        <div class="block2">
+
+    </div>
+    </div>
+    
+</body>
+</html>
