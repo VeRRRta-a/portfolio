@@ -1,0 +1,58 @@
+.container .block_1{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block_1 .menu {
+    width: 250px;
+}
+
+.block_1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.block_1 .menu a:hover,
+.block_1 .menu a.active {
+    color: #ffffff;
+    background-color: #7c0576;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.container .boxes .box figure {
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* .boxes figure p {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.125em;
+    font-weight: 400;
+
+    -webkit-text-stroke: 1.5px #7c0576;
+} */
+
+.boxes figure p {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* линейный градиент, слева на право, 3 цвета */
+  background-image: linear-gradient(to right, #55609b 0%, #7c0576 46%, #f8ca75 100%);
+  /* обрезаем фон по тексту */
+  -webkit-background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный что бы можно было увидеть градиент*/
+  -webkit-text-fill-color: transparent;
+}
+
+.boxes figure img {
+    border-radius: 30px;
+}
+

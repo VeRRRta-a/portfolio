@@ -1,0 +1,42 @@
+div {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+
+div p {
+    color: rgb(175, 18, 52);
+}
+div p span {
+    font-size: 25px;
+}
+#mainBox {
+    width: 50%;
+    height: 200px;
+
+    background: rgb(151, 59, 59);
+    background-color: rgb(75, 34, 34);
+}
+#mainBox .box {
+    width: 25%;
+    height: 25%;
+}
+#mainBox .red {
+    background: red;
+}
+#mainBox .blue {
+    background: blue;
+}
+#mainBox .green {
+    background: green;
+}
+#mainBox p {
+    color: white;
+}
+
+p[data-text='green']{
+    color: rgb(170, 255, 0);
+}
+p[data-te]{
+    color: rgb(175, 0, 0);
+}

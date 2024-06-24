@@ -1,0 +1,25 @@
+.container .block_1{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block_1 .menu {
+    width: 250px;
+}
+
+.block_1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.block_1 .menu a:hover,
+.block_1 .menu a.active {
+    color: #ffffff;
+    background-color: #7c0576;
+    font-weight: bold;
+    border-radius: 20px;
+}

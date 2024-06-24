@@ -1,0 +1,175 @@
+.container .block_1{
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block_1 .menu {
+    width: 250px;
+}
+
+.block_1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.block_1 .menu a:hover,
+.block_1 .menu a.active {
+    color: #ffffff;
+    background-color: #7c0576;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.block_1 .items .soft p {
+    color: #444444;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.block_1 .items .soft p a {
+    display: inline-block;
+    text-decoration: none;
+    color: #444444;
+    margin-left: 10px;
+    width: 65px;
+    background: url('/images/вверх_сер.png') no-repeat;
+    background-size: 20%;
+    background-position: 100% 50%;
+}
+
+.block_1 .items .soft p a:hover,
+.block_1 .items .soft p a.active {
+    background: url('/images/вниз_роз.png') no-repeat;
+    background-size: 20%;
+    color: #7c0576;
+    background-position: 100% 50%;
+    font-weight: 600;
+}
+
+.block_1 .items .boxes {
+    display: flex;
+}
+
+.block_1 .items .boxes .box {
+    position: relative;
+}
+
+.block_1 .items .boxes .box:hover,
+.block_1 .items .boxes .box:active {
+    font-weight: 600;
+}
+
+.block_1 .items .boxes .box img {
+    position: absolute; z-index: 2;
+
+    margin-top: 30px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+/* В JS убрать картинку при проигрывании видео */
+
+.block_1 .items .boxes .box iframe {
+    position: absolute; z-index: 1;
+
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 25px;
+
+    overflow: hidden;
+    border-radius: 30px;
+    position: relative;
+    display:inline-block;
+    /* Не поняла почему нужно имменно вместе использовать 2 посл стр */
+}
+
+.block_1 .items .boxes .box p {
+    padding-left: 55px;
+    color: #444444;
+    font-size: 1em;
+
+}
+
+        .block_1 .items .boxes .box2 {
+            position: relative;
+            
+        }
+        .block_1 .items .boxes .box2:hover,
+        .block_1 .items .boxes .box2:active {
+            font-weight: 600;
+        }
+
+        .block_1 .items .boxes .box2 img {
+            position: absolute; z-index: 2;
+
+            margin-top: 30px;
+            margin-left: 15px;
+            border-radius: 30px;
+        }
+
+        /* В JS убрать картинку при проигрывании видео */
+
+        .block_1 .items .boxes .box2 iframe {
+            position: absolute; z-index: 1;
+
+            margin-top: 30px;
+            margin-left: 15px;
+            margin-right: 25px;
+
+            overflow: hidden;
+            border-radius: 30px;
+            position: relative;
+            display:inline-block;
+        }
+
+        .block_1 .items .boxes .box2 p {
+            padding-left: 65px;
+            color: #444444;
+            font-size: 1em;
+
+        }
+
+                .block_1 .items .boxes .box3 {
+                    position: relative;
+                }
+
+                .block_1 .items .boxes .box3:hover,
+                .block_1 .items .boxes .box3:active {
+                    font-weight: 600;
+                }
+
+                .block_1 .items .boxes .box3 img {
+                    position: absolute; z-index: 2;
+
+                    margin-top: 30px;
+                    margin-left: 15px;
+                    border-radius: 30px;
+                }
+
+                /* В JS убрать картинку при проигрывании видео */
+
+                .block_1 .items .boxes .box3 iframe {
+                    position: absolute; z-index: 1;
+
+                    margin-top: 30px;
+                    margin-left: 15px;
+                    margin-right: 25px;
+
+                    overflow: hidden;
+                    border-radius: 30px;
+                    position: relative;
+                    display:inline-block;
+                }
+
+                .block_1 .items .boxes .box3 p {
+                    padding-left: 70px;
+                    color: #444444;
+                    font-size: 1em;
+                }
+
+
